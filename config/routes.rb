@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "/", to: "welcome#index"
   get "/trainers", to: "trainers#index"
-  get "/trainers/new", :to: "trainers#new"
+  get "/trainers/new", to: "trainers#new"
 end
